@@ -1,6 +1,9 @@
 use strict;
 use warnings;
-
+#
+# @author Saul
+#
+#/////////////////////////////////////////////////////////////////////
 my ($attempts, $fail, $goAgain, $wins, $losses, $guess, $tries, @build, @guessed, @pLs);
 $goAgain = 0, $wins = 0, $losses = 0;
 
@@ -67,3 +70,4 @@ do
 	print "\n"
 }
 while($goAgain);
+#/////////////////////////////////////////////////////////////////////
